@@ -498,6 +498,9 @@ p{
 }
 
 @media (max-width : 1024px){
+     body {
+        font-style: normal;
+    }
     .row{
        flex-wrap: wrap;
     }
