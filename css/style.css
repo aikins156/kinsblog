@@ -174,7 +174,7 @@ p{
 
 /* --------------- Site title ---------------- */
 main .site-title{
-    background: url('../assets/Background-image.png');
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url('../assets/back.jpg');
     background-size: cover;
     height: 70vh;
     display: flex;
@@ -429,6 +429,7 @@ footer.footer{
     height: 100%;
     background: var(--bg-color);
     position: relative;
+    
 }
 
 footer.footer .container{
@@ -469,8 +470,8 @@ footer.footer .newsletter .form-element span{
 
 footer.footer .instagram div > img{
     display: inline-block;
-    width: 25%;
-    height: 50%;
+    width: 12%;
+    height: 10%;
     margin: .3rem .4rem;
 }
 
@@ -501,6 +502,10 @@ footer.footer .move-up span{
 footer.footer .move-up span:hover{
     color: var(--white);
     cursor: pointer;
+}
+
+.follow {
+    color: var(--white);
 }
 
 /* ---------x------- Footer ----------x---------- */
